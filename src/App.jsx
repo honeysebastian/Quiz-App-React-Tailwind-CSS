@@ -1,11 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+
 
 function App() {
+
+
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+    <div className='game-container'>
+      <div className='heading'>
+        Quiz app
+      </div>
+      
+      <div className="max-question">
+        1/10 Questions
+      </div>
+      <div className="question">
+        1 . What is React?
+      </div>
+      
+      
+      
+      
+
     </div>
   )
 }
